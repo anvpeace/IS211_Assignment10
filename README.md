@@ -1,1 +1,3 @@
 # IS211_Assignment10
+
+For Part I, I created three relational tables: artist, album, and song. I structured it this way because it felt like the clearest and most organized way to represent the relationship between music artists, their albums, and the songs on those albums. The album table includes a foreign key connected to artist since each album is tied to one artist, and the song table includes a foreign key connected to album since each song appears on a specific album. I also included the track number and song length in the song table because those details are specific to each individual song. In my opinion, this design helps avoid repeating information unnecessarily and keeps the database organized while still storing all of the required details.
